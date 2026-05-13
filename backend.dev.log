@@ -1,0 +1,10 @@
+2026-05-12 21:49:56,767 INFO     Starting server at tcp:port=8000:interface=127.0.0.1
+2026-05-12 21:49:56,767 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2026-05-12 21:49:56,767 INFO     Configuring endpoint tcp:port=8000:interface=127.0.0.1
+2026-05-12 21:49:56,769 INFO     Listening on TCP address 127.0.0.1:8000
+Unauthorized: /api/v1/auth/me/
+2026-05-12 21:51:27,563 WARNING  Unauthorized: /api/v1/auth/me/
+Unauthorized: /api/v1/auth/me/
+2026-05-12 21:54:47,421 WARNING  Unauthorized: /api/v1/auth/me/
+Unauthorized: /api/v1/auth/me/
+2026-05-12 22:01:06,391 WARNING  Unauthorized: /api/v1/auth/me/

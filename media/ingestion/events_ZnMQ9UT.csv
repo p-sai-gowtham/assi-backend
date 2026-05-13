@@ -1,0 +1,3 @@
+event_type,external_user_id,message,timestamp,source
+pageview,usr-1,/pricing,,Google Search
+purchase,usr-2,Sale,,Email
