@@ -123,7 +123,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = env.list(
     "CORS_ALLOWED_ORIGINS",
-    default=["http://localhost:3000", "http://localhost:5173"],
+    default=["http://localhost:3000", "http://localhost:5173","https://assi-backend.onrender.com"],
 )
 CORS_ALLOW_CREDENTIALS = True
 
