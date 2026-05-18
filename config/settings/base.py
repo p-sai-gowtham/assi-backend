@@ -18,7 +18,7 @@ if env_file.exists():
 
 SECRET_KEY = env("DJANGO_SECRET_KEY", default="dev-only-change-me")
 DEBUG = env("DJANGO_DEBUG")
-ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS", default=["localhost", "127.0.0.1", "0.0.0.0"])
+ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS", default=["localhost","assi-frontend-kv1ny7ax3-psaigowthams-projects.vercel.app", "127.0.0.1", "0.0.0.0"])
 
 INSTALLED_APPS = [
     "daphne",
@@ -123,7 +123,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = env.list(
     "CORS_ALLOWED_ORIGINS",
-    default=["http://localhost:3000", "http://localhost:5173","https://assi-backend.onrender.com"],
+    default=["http://localhost:3000", "http://localhost:5173","https://assi-frontend-kv1ny7ax3-psaigowthams-projects.vercel.app"],
 )
 CORS_ALLOW_CREDENTIALS = True
 
